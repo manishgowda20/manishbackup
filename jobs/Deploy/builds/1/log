@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4DryL1iurOmopp+32jPkAP7TLRlepE1buU5b2tzlGle8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4PrTyDikaGK5WO+Yu1WHTOhBGvwACMO1+aKyXqxRfXLAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfWMAij/UwMEAAAA=[0m3
+originally caused by:
+ Started by user [8mha:////4CudJGEXF1bACna9DBSy9Plnony6/M/w3XFuCP584IyRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9zLyUzEQAWztNm8AAAAA=[0mmanish gowda
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins8463992845750424420.sh
++ cd /var/lib/jenkins/Build/target
+/tmp/jenkins8463992845750424420.sh: line 2: cd: /var/lib/jenkins/Build/target: No such file or directory
+Build step 'Execute shell' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE

@@ -1,0 +1,31 @@
+Started by user [8mha:////4CudJGEXF1bACna9DBSy9Plnony6/M/w3XFuCP584IyRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9zLyUzEQAWztNm8AAAAA=[0mmanish gowda
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build
+The recommended git tool is: NONE
+using credential 8e9f60ab-0193-4f36-820a-c51a91b107ea
+Cloning the remote Git repository
+Cloning repository https://github.com/manishgowda20/javafiles.git
+ > git init /var/lib/jenkins/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/manishgowda20/javafiles.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/Build@tmp/jenkins-gitclient-ssh647254564376584262.key
+ > git fetch --tags --force --progress -- https://github.com/manishgowda20/javafiles.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/manishgowda20/javafiles.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1b4b85490c30a3ba1bcfe5617ad70c77bcb47186 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1b4b85490c30a3ba1bcfe5617ad70c77bcb47186 # timeout=10
+Commit message: "files added"
+First time build. Skipping changelog.
+[Build] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------

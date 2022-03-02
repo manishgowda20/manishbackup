@@ -1,0 +1,12 @@
+Started by user [8mha:////4CudJGEXF1bACna9DBSy9Plnony6/M/w3XFuCP584IyRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9zLyUzEQAWztNm8AAAAA=[0mmanish gowda
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins6589657267754755140.sh
++ cd /var/lib/jenkins/workspace/Build/target
++ cp hello-world-war-1.0.0.war /var/lib/jenkins/workspace/Deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war to container Tomcat 9.x Remote with context null
+  [/var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war] is not deployed. Doing a fresh deployment.
+  Deploying [/var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war]
+Triggering a new build of [8mha:////4A5CZy2V6u04r9QplC6U0sD5B8c6vu0CFPnZlt3LGCCPAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2Q1OISfQCjfsn8vwAAAA==[0mTest
+Finished: SUCCESS

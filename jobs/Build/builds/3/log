@@ -1,0 +1,69 @@
+Started by user [8mha:////4CudJGEXF1bACna9DBSy9Plnony6/M/w3XFuCP584IyRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9zLyUzEQAWztNm8AAAAA=[0mmanish gowda
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build
+The recommended git tool is: NONE
+using credential 8e9f60ab-0193-4f36-820a-c51a91b107ea
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/manishgowda20/javafiles.git # timeout=10
+Fetching upstream changes from https://github.com/manishgowda20/javafiles.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/Build@tmp/jenkins-gitclient-ssh6265086373436563589.key
+ > git fetch --tags --force --progress -- https://github.com/manishgowda20/javafiles.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d382c2f27ffd86ded7ab228854615c5c22331a9b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d382c2f27ffd86ded7ab228854615c5c22331a9b # timeout=10
+Commit message: "Delete file1"
+First time build. Skipping changelog.
+[Build] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-war ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/target
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-war ---
+[8mha:////4NDfJBFNtz+8GqHeZveL8bSItrLD6eoZ6EOyk+TBm6oTAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/src/main/resources
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-war ---
+[8mha:////4NDfJBFNtz+8GqHeZveL8bSItrLD6eoZ6EOyk+TBm6oTAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/src/test/resources
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-war ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ hello-world-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-war] in [/var/lib/jenkins/workspace/Build/target/hello-world-war-1.0.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/Build/src/main/webapp]
+[INFO] Webapp assembled in [28 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/Build/target/hello-world-war-1.0.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4LOeH0OIXCsJR0NXOYXkCULX1BuyzHMWbT55eL367kqJAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello-world-war ---
+[INFO] Installing /var/lib/jenkins/workspace/Build/target/hello-world-war-1.0.0.war to /var/lib/jenkins/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[INFO] Installing /var/lib/jenkins/workspace/Build/pom.xml to /var/lib/jenkins/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.810 s
+[INFO] Finished at: 2022-03-01T10:47:22Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4L7a/j3crpZtz6NLVgAQhqLt3FX3FiQvZYQoNmdYR+4HAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

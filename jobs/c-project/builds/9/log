@@ -1,0 +1,69 @@
+Started by user [8mha:////4CudJGEXF1bACna9DBSy9Plnony6/M/w3XFuCP584IyRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9zLyUzEQAWztNm8AAAAA=[0mmanish gowda
+Running as SYSTEM
+Building remotely on [8mha:////4OJtUMI9Tl10H3Kx5qTRUP5FYYXZwgEvsDp0hFbaCT86AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/manishgowda20/cproject.git # timeout=10
+Fetching upstream changes from https://github.com/manishgowda20/cproject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/manishgowda20/cproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ba50192605a51cca47ca68644397840172384829 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba50192605a51cca47ca68644397840172384829 # timeout=10
+Commit message: "files added"
+ > git rev-list --no-walk ba50192605a51cca47ca68644397840172384829 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins1987771344301702110.sh
++ cd /home/ec2-user/workspace/c-project
++ make
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:2:2: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+  biggest3();
+  ^~~~~~~~
+main.c:3:2: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+  factorial();
+  ^~~~~~~~~
+main.c:4:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+main.c:5:2: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+  palindrome();
+  ^~~~~~~~~~
+main.c:6:2: warning: implicit declaration of function ‘biggest2’ [-Wimplicit-function-declaration]
+  biggest2();
+  ^~~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘sumoftwo’ [-Wimplicit-function-declaration]
+  sumoftwo();
+  ^~~~~~~~
+main.c:8:2: warning: implicit declaration of function ‘fibanaci’ [-Wimplicit-function-declaration]
+  fibanaci();
+  ^~~~~~~~
+main.c:9:2: warning: implicit declaration of function ‘sorting’ [-Wimplicit-function-declaration]
+  sorting();
+  ^~~~~~~
+gcc -c big3.c
+big3.c:1:20: warning: extra tokens at end of #include directive
+ #include <stdio.h> #go
+                    ^
+cc    -c -o fact.o fact.c
+fact.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ factorial() {
+ ^~~~~~~~~
+gcc -c big2.c
+gcc -c rev.c
+gcc -c palin.c
+gcc -c sum2.c
+gcc -c fiba.c
+gcc -c sort.c
+sort.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ sorting ()
+ ^~~~~~~
+gcc -o execute.exe main.o big3.o fact.o big2.o rev.o palin.o sum2.o fiba.o sort.o
+Finished: SUCCESS
